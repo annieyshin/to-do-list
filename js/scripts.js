@@ -9,15 +9,14 @@ $(document).ready(function() {
     var inputtedItem = $("input#taskInput").val();
     var newTask = new toDoList(inputtedItem);
 
-    $("ul#resultsList").append("<li>" + '<input type="checkbox" id="complete">' + " " + newTask.task + "</li>");
+    $("ul#resultsList").append("<li>" + '<input type="checkbox" class="complete">' + " " + newTask.task + "</li>");
 
     $("input#taskInput").val("");
 
-    $('#complete').change(function()
+    $('.complete').change(function()
     {
-      if(this.checked == true)
-      {
-      $('#resultsList').parent().children('#complete').hide();
+      if(this.checked == true) {
+      $(this).parent().hide();
       }
     });
 
