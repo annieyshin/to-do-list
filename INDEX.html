@@ -15,13 +15,27 @@
       <div class="jumbotron">
           <h1>So much stuff to do!</h1>
       </div>
-      <form id="taskForm">
-        <div class="form-group">
-          <label for="taskInput">Task</label>
-          <input type="text" class="form-control" id="taskInput" placeholder="What do you have to do!?">
-          <button type="submit" class="btn btn-primary">Submit</button>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <form id="taskForm">
+              <label for="taskInput">Task</label>
+              <input type="text" class="form-control" id="taskInput" placeholder="What do you have to do!?">
+              <label for="date">Date</label>
+              <input type="date" class="form-control" id="date" placeholder="Due date for task">
+  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <!-- <form id="dateform">
+
+
+            </form> -->
+          </div>
+          </div>
         </div>
-      </form>
+      </div>
+
+      </div>
       <div id="results">
           <ul id="resultsList">
 
