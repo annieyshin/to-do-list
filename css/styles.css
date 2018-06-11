@@ -1,0 +1,21 @@
+.container {
+  color: orange;
+  background-color: beige;
+  width: 100%;
+  height: 1000px;
+  padding: 5px;
+  font-size: 16pt;
+}
+
+#todopic {
+  float: right;
+  height: 100px;
+  padding: 5px;
+
+}
+
+.jumbotron {
+  max-width: 90%;
+  font-size: 42pt;
+
+}

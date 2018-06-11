@@ -8,12 +8,13 @@
     <script src="js/scripts.js" type="text/javascript">
 
     </script>
-    <title>Shit to Do!</title>
+    <title>Stuff to Do!</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
-          <h1>So much stuff to do!</h1>
+          <p>Do <strong>ALL</strong> these things <img src="img/todo.jpeg" id="todopic"></p>
+
       </div>
 
       <div class="row">
@@ -22,9 +23,11 @@
             <form id="taskForm">
               <label for="taskInput">Task</label>
               <input type="text" class="form-control" id="taskInput" placeholder="What do you have to do!?">
+              <br>
               <label for="date">Date</label>
               <input type="date" class="form-control" id="date" placeholder="Due date for task">
-  <button type="submit" class="btn btn-primary">Submit</button>
+              <br>
+              <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             <!-- <form id="dateform">
 
@@ -33,14 +36,16 @@
           </div>
           </div>
         </div>
+        <div id="results">
+            <ul id="resultsList">
+            </ul>
+        </div>
       </div>
 
       </div>
-      <div id="results">
-          <ul id="resultsList">
+      <br>
+      <br>
 
-          </ul>
-      </div>
     </div>
   </body>
 </html>

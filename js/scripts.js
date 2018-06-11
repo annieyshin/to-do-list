@@ -16,7 +16,7 @@ $(document).ready(function() {
     var newTask = new toDoList(inputtedItem, taskDate);
 
 
-    $("ul#resultsList").append("<li>" + '<input type="checkbox" class="complete">' + " " + newTask.fullTask() + "</li>");
+    $("ul#resultsList").append("<li>" + '<input type="checkbox" class="complete">' + " " +  newTask.fullTask() + "</li>");
 
     $("input#taskInput").val("");
 
